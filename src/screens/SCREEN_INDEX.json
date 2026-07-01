@@ -1,0 +1,19 @@
+[
+  {
+    "screenId": "0c65968fde3249fa9921c451aa665200",
+    "title": "Status Utility - Run Probe",
+    "componentName": "StatusUtilityRunProbe",
+    "file": "src/screens/StatusUtilityRunProbe.tsx",
+    "buttons": 1,
+    "inputs": 1,
+    "links": 0,
+    "actions": [
+      {
+        "id": "refresh-status-1",
+        "kind": "button",
+        "label": "Refresh Status",
+        "index": 0
+      }
+    ]
+  }
+]
