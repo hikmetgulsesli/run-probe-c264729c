@@ -1,0 +1,171 @@
+{
+  "generatedAt": "2026-07-01T08:23:54.677Z",
+  "screenCount": 1,
+  "screens": {
+    "0c65968fde3249fa9921c451aa665200": {
+      "screenId": "0c65968fde3249fa9921c451aa665200",
+      "materialSymbolsRequired": true,
+      "sections": [
+        {
+          "tag": "header",
+          "layout": "block",
+          "classes": [
+            "bg-surface-container-lowest",
+            "border-b",
+            "border-outline-variant",
+            "full-width",
+            "top-0",
+            "docked",
+            "z-50"
+          ],
+          "childCount": 2
+        },
+        {
+          "tag": "main",
+          "layout": "flex-col",
+          "classes": [
+            "flex-grow",
+            "flex",
+            "flex-col",
+            "items-center",
+            "justify-center",
+            "p-container-padding",
+            "md:p-stack-lg",
+            "w-full",
+            "max-w-3xl",
+            "mx-auto"
+          ],
+          "childCount": 15
+        }
+      ],
+      "buttons": [
+        {
+          "kind": "button",
+          "label": "Status",
+          "classes": [
+            "bg-primary",
+            "text-on-primary",
+            "font-label-md",
+            "text-label-md",
+            "py-2",
+            "px-4",
+            "rounded",
+            "hover:bg-primary-container",
+            "transition-colors",
+            "focus:outline-none",
+            "focus:ring-2",
+            "focus:ring-primary",
+            "focus:ring-offset-2",
+            "flex",
+            "items-center",
+            "justify-center",
+            "gap-2"
+          ],
+          "icon": "refresh",
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "inputs": [
+        {
+          "kind": "input",
+          "type": "checkbox",
+          "label": "systemToggle",
+          "placeholder": "",
+          "name": "systemToggle",
+          "classes": [
+            "sr-only",
+            "peer"
+          ],
+          "expectedBehavior": "controlled value with onChange; validation if required by PRD"
+        }
+      ],
+      "navLinks": [],
+      "cards": [],
+      "icons": [
+        "speed",
+        "wifi_off",
+        "refresh"
+      ],
+      "images": [],
+      "cssVars": {},
+      "colorPalette": {
+        "surface-dim": "#cbdbf5",
+        "error": "#ba1a1a",
+        "secondary-fixed-dim": "#4edea3",
+        "secondary-container": "#6cf8bb",
+        "primary": "#003ec7",
+        "on-error-container": "#93000a",
+        "inverse-primary": "#b7c4ff",
+        "primary-container": "#0052ff",
+        "secondary": "#006c49",
+        "on-error": "#ffffff",
+        "on-tertiary-container": "#ffdfbe",
+        "on-tertiary-fixed-variant": "#653e00",
+        "surface-container": "#e5eeff",
+        "on-secondary-fixed-variant": "#005236",
+        "error-container": "#ffdad6",
+        "on-secondary-fixed": "#002113",
+        "on-background": "#0b1c30",
+        "on-surface": "#0b1c30",
+        "surface-variant": "#d3e4fe",
+        "surface-tint": "#004ced",
+        "background": "#f8f9ff",
+        "on-secondary-container": "#00714d",
+        "on-primary-fixed": "#001452",
+        "on-primary-container": "#dfe3ff",
+        "on-surface-variant": "#434656",
+        "surface-bright": "#f8f9ff",
+        "surface-container-lowest": "#ffffff",
+        "on-primary": "#ffffff",
+        "secondary-fixed": "#6ffbbe",
+        "tertiary-fixed": "#ffddb8",
+        "inverse-surface": "#213145",
+        "surface-container-highest": "#d3e4fe",
+        "surface-container-high": "#dce9ff",
+        "tertiary-container": "#905a00",
+        "tertiary": "#6f4500",
+        "on-tertiary": "#ffffff",
+        "outline-variant": "#c3c5d9",
+        "primary-fixed": "#dde1ff",
+        "outline": "#737688",
+        "on-secondary": "#ffffff",
+        "primary-fixed-dim": "#b7c4ff",
+        "on-primary-fixed-variant": "#0038b6",
+        "surface-container-low": "#eff4ff",
+        "surface": "#f8f9ff",
+        "on-tertiary-fixed": "#2a1700",
+        "inverse-on-surface": "#eaf1ff",
+        "tertiary-fixed-dim": "#ffb95f"
+      },
+      "fonts": [
+        "Material Symbols Outlined",
+        "Geist Mono",
+        "Geist"
+      ],
+      "layoutHints": {
+        "gridCols": 1,
+        "flexDirection": "col",
+        "gap": "2"
+      },
+      "behaviorContract": [
+        {
+          "kind": "button",
+          "label": "Status",
+          "icon": "refresh",
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "input",
+          "label": "systemToggle",
+          "type": "checkbox",
+          "placeholder": "",
+          "expectedBehavior": "controlled value with onChange; validation if required by PRD"
+        }
+      ],
+      "tabBar": [],
+      "title": "Status Utility - Run Probe"
+    }
+  }
+}
