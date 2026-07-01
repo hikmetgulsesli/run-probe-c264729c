@@ -1,0 +1,40 @@
+[
+  {
+    "screenId": "0c65968fde3249fa9921c451aa665200",
+    "screenTitle": "Status Utility - Run Probe",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "button",
+        "label": "Status",
+        "line": 155
+      },
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 166
+      }
+    ],
+    "navigation": [],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "Status",
+        "line": 155
+      }
+    ],
+    "inputs": [
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 166
+      }
+    ],
+    "hardcodedData": [],
+    "totalInteractive": 2,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  }
+]
